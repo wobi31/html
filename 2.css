@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  /* width: 1366px; */
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  /* background-color: greenyellow; */
+}
+
+main>div:first-child {
+  width: 800px;
+  height: auto;
+  background-image: url("./css/avnger.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(43, 21, 107, 0.8);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main>div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
